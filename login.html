@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="Navbar">
+      <div class="section1">
+        <a class="title" href="/index.html">Best Books</a>
+      </div>
+      <div class="section2">
+        <img src="/images/zoom.png" alt="zoom_img" width="15px" />
+        <input type="text" class="search" />
+      </div>
+      <div class="section3">
+        <div class="img">
+          <a href="cart.html">
+            <img src="/images/cart.png" alt="cart" width="30px" height="20px" />
+          </a>
+        </div>
+        <div class="img">
+          <a href="/index.html"
+            ><img
+              src="/images/logo1.png"
+              alt="logo"
+              width="50px"
+              height="30px"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="login-flex">
+      <div class="login-container">
+        <h2>Login</h2>
+        <form action="login-process.php" method="post">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="form-group">
+            <button type="submit">Login</button>
+          </div>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+      </div>
+    </div>
+  </body>
+</html>
